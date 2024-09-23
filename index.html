@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phelipe Matheus</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <script defer src="/scripts/skills.js"></script>
+</head>
+
+<body>
+    <div id="degrade">
+        <header>
+            <div class="logo">
+                <h1>Phelipe Matheus</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"> <img class="icon" src="/components/images/icons8-cardápio-50.png" ></button>
+            </div>
+            <div class="mobile-menu">
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+            </div>
+        </header>
+        <main id="home">
+            <div class="container">
+                <div class="content">
+                    <p>Hello, i'm</p>
+                    <h1>Phelipe Matheus</h1>
+                    <h2>FullStack Developer</h2>
+                    <div class="buttons">
+                        <div>
+                        <div class="btn_linkedin">
+                            <a href="https://www.linkedin.com/in/phelipe-matheus-andrade-400665205/"
+                                class="btn btn-white btn-animate">Linkedin</a>
+                        </div>
+                        </div>
+                        <div class="btn_curriculo">
+                            <a href="/components/Curriculo.pdf" download class="btn btn-black btn-animate">Dowload cv</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!----------------------------------------SOBRE---------------------------------->
+        <section id="about">
+            <div class="container">
+                <div class="details_container">
+                    <div class="left">
+                        <div class="content">
+                            <img src="/components/images/icons-experience.white.png" alt="Experience icon">
+                            <h3>Experience</h3>
+                            <p>1+ years <br />FullStack Development</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="content">
+                            <img src="/components/images/icons8-educação.white.png" alt="Education icon">
+                            <h3>Education</h3>
+                            <p>Universidade UniCEUB de Brasilia <br> 5º semestre</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text_container">
+                    <p>
+                        Sou Phelipe, tenho 22 anos, atualmente focando mais na parte de backend e banco de dados, mas
+                        sempre resolvendo problemas de WebDesign, gosto bastante de trabalhar em equipe, sou bastante
+                        proativo, organizado, tenho facilidade e grande disposição para aprender. Hoje em dia atuo mais
+                        com trabalhos em Freelancers.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!----------------------------------------Habiliadedes---------------------------------->
+        <section id="skills">
+            <div class="container">
+                <div class="bg_skills">
+                    <div class="title">
+                        <h1>Skills</h1>
+                    </div>
+                    <div class="left">
+                        <div class="icons">
+                            <ul>
+                                <li class="btn_skills"> <button id="btn-hmtl"> <img
+                                            src="/components/images/icon-html-red.png" alt=""> </button>
+                                    <P>html</P>
+                                </li>
+                                <li class="btn_skills"> <button id="btn-css"> <img
+                                            src="/components/images/icon-css-red.png" alt=""> </button>
+                                    <P>css</P>
+                                </li>
+                                <li class="btn_skills"> <button id="btn-js"> <img
+                                            src="/components/images/icon-javascript-red.png" alt=""> </button>
+                                    <P>JS</P>
+                                </li>
+                                <li class="btn_skills"> <button id="btn-github"> <img
+                                            src="/components/images/icon-github-red.png" alt=""> </button>
+                                    <P>GitHub</P>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="btn_skills"> <button id="btn_java"> <img
+                                            src="/components/images/icons8-logo-java-coffee-red.png" alt=""> </button>
+                                    <P>Java</P>
+                                </li>
+                                <li class="btn_skills"> <button id="btn_csharp"> <img
+                                            src="/components/images/icons8-csharp-red.png" alt=""> </button>
+                                    <P>C#</P>
+                                </li>
+                                <li class="btn_skills"> <button id="btn_sql"> <img
+                                            src="/components/images/icons8-sql-red.png" alt=""> </button>
+                                    <P>SQL</P>
+                                </li>
+                                <li class="btn_skills"> <button id="btn_c_mais_mais"> <img
+                                            src="/components/images/icons8-c-mais-mais-red.png" alt=""> </button>
+                                    <P>C++</P>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="right">
+                        <!-- 1 card -->
+                        <div id="card-base">
+                            <h1>Para ler a descrição clique no icone</h1>
+                            <div class="content">
+                                <p>
+                                    :)
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 2 card -->
+                        <div id="card-html">
+                            <img src="/components/images/icon-html.png">
+                            <h1>HTML5</h1>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam nihil
+                                    quaerat culpa autem eveniet adipisci perferendis dignissimos.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 3 card -->
+                        <div id="card-css">
+                            <img src="/components/images/icon-css.png">
+                            <h1>CSS</h1>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam nihil
+                                    quaerat culpa autem eveniet adipisci perferendis dignissimos.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 4 card -->
+                        <div id="card-js">
+                            <img src="/components/images/icons-javascript.png">
+                            <h1>Java Script</h1>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam nihil
+                                    quaerat culpa autem eveniet adipisci perferendis dignissimos.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 5 card -->
+                        <div id="card-GitHub">
+                            <img src="/components/images/icon-github.png">
+                            <h1>Git Hub</h1>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam nihil
+                                    quaerat culpa autem eveniet adipisci perferendis dignissimos.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 6 card -->
+                        <div id="card-java">
+                            <img src="/components/images/icons8-logo-java-coffee.png">
+                            <h1>Java</h1>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam nihil
+                                    quaerat culpa autem eveniet adipisci perferendis dignissimos.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 7 card -->
+                        <div id="card-csharp">
+                            <img src="/components/images/icons8-csharp.png">
+                            <h1>C#</h1>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam nihil
+                                    quaerat culpa autem eveniet adipisci perferendis dignissimos.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 8 card -->
+                        <div id="card-sql">
+                            <img src="/components/images/icons8-csharp.png">
+                            <h1>SQL Server</h1>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam nihil
+                                    quaerat culpa autem eveniet adipisci perferendis dignissimos.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 9 card -->
+                        <div id="card_c_mais_mais">
+                            <img src="/components/images/icons8-csharp.png">
+                            <h1>C++</h1>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam nihil
+                                    quaerat culpa autem eveniet adipisci perferendis dignissimos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----------------------------------------Projetos---------------------------------->
+        <section id="projects">
+            <div class="container">
+                <div class="left">
+                    <h1>Projetos</h1>
+                    <span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa, saepe provident quo
+                        adipisci
+                        dolore
+                    </span>
+                </div>
+                <div class="right">
+                    <h3>Projetos disponiveis</h3>
+                    <!-- BOX1 -->
+                    <div class="box">
+
+                        <div class="info-02">
+                            <div>
+                                <p>Em breve</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BOX2 -->
+                    <div class="box">
+
+                        <div class="info-02">
+                            <p>Em breve</p>
+                        </div>
+                    </div>
+                    <!-- BOX3 -->
+                    <div class="box">
+
+                        <div class="info-02">
+                            <p>Em breve</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-1 btn-sep icon-info">Ver Mais</button>
+                </div>
+            </div>
+        </section>
+
+
+        <!---------------------------------------- Footer ---------------------------------->
+        <footer>
+            <div class="container">
+                <div class="left">
+                    © 2023 <a href=""> FRONT </a>by Phelipe Matheus
+                </div>
+
+                <div class="right">
+                    <ul>
+                        <li><a href="https://www.instagram.com/andrade_00/"><img src="/components/images/instagram.png"
+                                    alt=""></a></li>
+                        <li><a href="https://github.com/PhelipeMatheus13"><img src="/components/images/github.png"
+                                    alt=""></a></li>
+                        <li><a href="https://www.linkedin.com/in/phelipe-matheus-andrade-400665205/"><img
+                                    src="/components/images/linkedin.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

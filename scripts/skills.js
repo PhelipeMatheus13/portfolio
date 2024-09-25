@@ -1,74 +1,75 @@
-var btnHtml = document.querySelector('#btn-hmtl'); 
-var btnCss = document.querySelector('#btn-css'); 
-var btnJs = document.querySelector('#btn-js'); 
-var btnGithub = document.querySelector('#btn-github'); 
+// ********************* back end skills 
+var btnGolang = document.querySelector('#btn_golang'); 
+var btnCsharp = document.querySelector('#btn_csharp'); 
+var btnJs = document.querySelector('#btn_js'); 
+var btnPhp = document.querySelector('#btn_php'); 
 var btnJava = document.querySelector('#btn_java');
-var btnCsharp = document.querySelector('#btn_csharp');
-var btnSql = document.querySelector('#btn_sql');
-var btnCmais = document.querySelector('#btn_c_mais_mais');
+var btnPy = document.querySelector('#btn_py');
+var btnMongo = document.querySelector('#btn_mongo');
+var btnPsql = document.querySelector('#btn_psql');
 
 var cardBase = document.querySelector('#card-base');
-var cardHtml = document.querySelector('#card-html');
-var cardCss = document.querySelector('#card-css');
-var cardJs = document.querySelector('#card-js');
-var cardGithub = document.querySelector('#card-GitHub');
-var cardJava = document.querySelector('#card-java');
-var cardCsharp = document.querySelector('#card-csharp');
-var cardSql = document.querySelector('#card-sql')
-var cardCmais = document.querySelector('#card_c_mais_mais')
+var cardGo = document.querySelector('#card_golang');
+var cardCsharp = document.querySelector('#card_csharp');
+var cardJs = document.querySelector('#card_js');
+var cardPhp = document.querySelector('#card_php');
+var cardJava = document.querySelector('#card_java');
+var cardPy = document.querySelector('#card_py');
+var cardMongo = document.querySelector('#card_mongo')
+var cardPsql = document.querySelector('#card_psql')
 
 
-// criando função botao HTML
-btnHtml.addEventListener('click', function() {
+// criando função botao GO
+btnGolang.addEventListener('click', function() {
 
-    if(cardHtml.style.display === 'none') {
-        cardHtml.style.display = 'block';
+    if(cardGo.style.display === 'none') {
+        cardGo.style.display = 'block';
         cardBase.style.display = 'none';
-        cardCss.style.display = 'none';
-        cardJs.style.display = 'none';
-        cardGithub.style.display = 'none';
-        cardJava.style.display = 'none';
         cardCsharp.style.display = 'none';
-        cardSql.style.display = 'none';
-        cardCmais.style.display = 'none';
+        cardJs.style.display = 'none';
+        cardPhp.style.display = 'none';
+        cardJava.style.display = 'none';
+        cardPy.style.display = 'none';
+        cardMongo.style.display = 'none';
+        cardPsql.style.display = 'none';
 
     } else {
-        cardHtml.style.display = 'block';
+        cardGo.style.display = 'block';
         cardBase.style.display = 'none';
-        cardCss.style.display = 'none';
-        cardJs.style.display = 'none';
-        cardGithub.style.display = 'none';
-        cardJava.style.display = 'none';
         cardCsharp.style.display = 'none';
-        cardSql.style.display = 'none';
-        cardCmais.style.display = 'none';
+        cardJs.style.display = 'none';
+        cardPhp.style.display = 'none';
+        cardJava.style.display = 'none';
+        cardPy.style.display = 'none';
+        cardMongo.style.display = 'none';
+        cardPsql.style.display = 'none';
     }
 });
 
-// criando função botao css
-btnCss.addEventListener('click', function() {
+// criando função botao c#
+btnCsharp.addEventListener('click', function() {
 
-    if(cardCss.style.display === 'none') {
-        cardCss.style.display = 'block';
+    if(cardCsharp.style.display === 'none') {
+        cardCsharp.style.display = 'block';
         cardBase.style.display = 'none';
-        cardHtml.style.display = 'none';
+        cardGo.style.display = 'none';
         cardJs.style.display = 'none';
-        cardGithub.style.display = 'none';
+        cardPhp.style.display = 'none';
         cardJava.style.display = 'none';
-        cardCsharp.style.display = 'none';
-        cardSql.style.display = 'none';
-        cardCmais.style.display = 'none';
+        cardPy.style.display = 'none';
+        cardMongo.style.display = 'none';
+        cardPsql.style.display = 'none';
 
     } else {
-        cardCss.style.display = 'block';
+        cardCsharp.style.display = 'block';
         cardBase.style.display = 'none';
-        cardHtml.style.display = 'none';
+        cardGo.style.display = 'none';
         cardJs.style.display = 'none';
-        cardGithub.style.display = 'none';
+        cardPhp.style.display = 'none';
         cardJava.style.display = 'none';
-        cardCsharp.style.display = 'none';
-        cardSql.style.display = 'none';
-        cardCmais.style.display = 'none';
+        cardPy.style.display = 'none';
+        cardMongo.style.display = 'none';
+        cardPsql.style.display = 'none';
     }
 });
 
@@ -78,51 +79,51 @@ btnJs.addEventListener('click', function() {
     if(cardJs.style.display === 'none') {
         cardJs.style.display = 'block';
         cardBase.style.display = 'none';
-        cardHtml.style.display = 'none';
-        cardCss.style.display = 'none';
-        cardGithub.style.display = 'none';
-        cardJava.style.display = 'none';
+        cardGo.style.display = 'none';
         cardCsharp.style.display = 'none';
-        cardSql.style.display = 'none';
-        cardCmais.style.display = 'none';
+        cardPhp.style.display = 'none';
+        cardJava.style.display = 'none';
+        cardPy.style.display = 'none';
+        cardMongo.style.display = 'none';
+        cardPsql.style.display = 'none';
 
     } else {
         cardJs.style.display = 'block';
         cardBase.style.display = 'none';
-        cardHtml.style.display = 'none';
-        cardCss.style.display = 'none';
-        cardGithub.style.display = 'none';
-        cardJava.style.display = 'none';
+        cardGo.style.display = 'none';
         cardCsharp.style.display = 'none';
-        cardSql.style.display = 'none';
-        cardCmais.style.display = 'none';
+        cardPhp.style.display = 'none';
+        cardJava.style.display = 'none';
+        cardPy.style.display = 'none';
+        cardMongo.style.display = 'none';
+        cardPsql.style.display = 'none';
     }
 });
 
-// criando função botao GIT HUb
-btnGithub.addEventListener('click', function() {
+// criando função botao PHP
+btnPhp.addEventListener('click', function() {
 
-    if(cardGithub.style.display === 'none') {
-        cardGithub.style.display = 'block';
+    if(cardPhp.style.display === 'none') {
+        cardPhp.style.display = 'block';
         cardBase.style.display = 'none';
-        cardHtml.style.display = 'none';
-        cardCss.style.display = 'none';
+        cardGo.style.display = 'none';
+        cardCsharp.style.display = 'none';
         cardJs.style.display = 'none';
         cardJava.style.display = 'none';
-        cardCsharp.style.display = 'none';
-        cardSql.style.display = 'none';
-        cardCmais.style.display = 'none';
+        cardPy.style.display = 'none';
+        cardMongo.style.display = 'none';
+        cardPsql.style.display = 'none';
 
     } else {
-        cardGithub.style.display = 'block';
+        cardPhp.style.display = 'block';
         cardBase.style.display = 'none';
-        cardHtml.style.display = 'none';
-        cardCss.style.display = 'none';
+        cardGo.style.display = 'none';
+        cardCsharp.style.display = 'none';
         cardJs.style.display = 'none';
         cardJava.style.display = 'none';
-        cardCsharp.style.display = 'none';
-        cardSql.style.display = 'none';
-        cardCmais.style.display = 'none';
+        cardPy.style.display = 'none';
+        cardMongo.style.display = 'none';
+        cardPsql.style.display = 'none';
     }
 });
 
@@ -132,100 +133,279 @@ btnJava.addEventListener('click', function() {
     if(cardJava.style.display === 'none') {
         cardJava.style.display = 'block';
         cardBase.style.display = 'none';
-        cardHtml.style.display = 'none';
-        cardCss.style.display = 'none';
-        cardJs.style.display = 'none';
-        cardGithub.style.display = 'none';
+        cardGo.style.display = 'none';
         cardCsharp.style.display = 'none';
-        cardSql.style.display = 'none';
-        cardCmais.style.display = 'none';
+        cardJs.style.display = 'none';
+        cardPhp.style.display = 'none';
+        cardPy.style.display = 'none';
+        cardMongo.style.display = 'none';
+        cardPsql.style.display = 'none';
     } else {
         cardJava.style.display = 'block';
-        cardGithub.style.display = 'none';
+        cardPhp.style.display = 'none';
         cardBase.style.display = 'none';
-        cardHtml.style.display = 'none';
-        cardCss.style.display = 'none';
-        cardJs.style.display = 'none';
+        cardGo.style.display = 'none';
         cardCsharp.style.display = 'none';
-        cardSql.style.display = 'none';
-        cardCmais.style.display = 'none';
+        cardJs.style.display = 'none';
+        cardPy.style.display = 'none';
+        cardMongo.style.display = 'none';
+        cardPsql.style.display = 'none';
     }
 });
 
-// criando função botao C sharp
-btnCsharp.addEventListener('click', function() {
+// criando função botao PY
+btnPy.addEventListener('click', function() {
 
-    if(cardCsharp.style.display === 'none') {
-        cardCsharp.style.display = 'block';
+    if(cardPy.style.display === 'none') {
+        cardPy.style.display = 'block';
         cardJava.style.display = 'none';
         cardBase.style.display = 'none';
-        cardHtml.style.display = 'none';
-        cardCss.style.display = 'none';
+        cardGo.style.display = 'none';
+        cardCsharp.style.display = 'none';
         cardJs.style.display = 'none';
-        cardGithub.style.display = 'none';
-        cardSql.style.display = 'none';
-        cardCmais.style.display = 'none';
+        cardPhp.style.display = 'none';
+        cardMongo.style.display = 'none';
+        cardPsql.style.display = 'none';
     } else {
-        cardCsharp.style.display = 'block';
+        cardPy.style.display = 'block';
         cardJava.style.display = 'none';
-        cardGithub.style.display = 'none';
+        cardPhp.style.display = 'none';
         cardBase.style.display = 'none';
-        cardHtml.style.display = 'none';
-        cardCss.style.display = 'none';
+        cardGo.style.display = 'none';
+        cardCsharp.style.display = 'none';
         cardJs.style.display = 'none';
-        cardSql.style.display = 'none';
-        cardCmais.style.display = 'none';
+        cardMongo.style.display = 'none';
+        cardPsql.style.display = 'none';
     }
 });
 
-// criando função botao SQL
-btnSql.addEventListener('click', function() {
+// criando função botao Mongo
+btnMongo.addEventListener('click', function() {
 
-    if(cardSql.style.display === 'none') {
-        cardSql.style.display = 'block';
-        cardCsharp.style.display = 'none';
+    if(cardMongo.style.display === 'none') {
+        cardMongo.style.display = 'block';
+        cardPy.style.display = 'none';
         cardJava.style.display = 'none';
         cardBase.style.display = 'none';
-        cardHtml.style.display = 'none';
-        cardCss.style.display = 'none';
+        cardGo.style.display = 'none';
+        cardCsharp.style.display = 'none';
         cardJs.style.display = 'none';
-        cardGithub.style.display = 'none';
-        cardCmais.style.display = 'none';
+        cardPhp.style.display = 'none';
+        cardPsql.style.display = 'none';
     } else {
-        cardSql.style.display = 'block';
-        cardCsharp.style.display = 'none';
+        cardMongo.style.display = 'block';
+        cardPy.style.display = 'none';
         cardJava.style.display = 'none';
-        cardGithub.style.display = 'none';
+        cardPhp.style.display = 'none';
         cardBase.style.display = 'none';
-        cardHtml.style.display = 'none';
-        cardCss.style.display = 'none';
+        cardGo.style.display = 'none';
+        cardCsharp.style.display = 'none';
         cardJs.style.display = 'none';
-        cardCmais.style.display = 'none';
+        cardPsql.style.display = 'none';
     }
 });
 
-// criando função botao C++
-btnCmais.addEventListener('click', function() {
+// criando função botao Psql
+btnPsql.addEventListener('click', function() {
 
-    if(cardCmais.style.display === 'none') {
-        cardCmais.style.display = 'block';
-        cardSql.style.display = 'none';
-        cardCsharp.style.display = 'none';
+    if(cardPsql.style.display === 'none') {
+        cardPsql.style.display = 'block';
+        cardMongo.style.display = 'none';
+        cardPy.style.display = 'none';
         cardJava.style.display = 'none';
         cardBase.style.display = 'none';
-        cardHtml.style.display = 'none';
-        cardCss.style.display = 'none';
+        cardGo.style.display = 'none';
+        cardCsharp.style.display = 'none';
         cardJs.style.display = 'none';
-        cardGithub.style.display = 'none';
+        cardPhp.style.display = 'none';
     } else {
-        cardCmais.style.display = 'block';
-        cardSql.style.display = 'none';
-        cardCsharp.style.display = 'none';
+        cardPsql.style.display = 'block';
+        cardMongo.style.display = 'none';
+        cardPy.style.display = 'none';
         cardJava.style.display = 'none';
-        cardGithub.style.display = 'none';
+        cardPhp.style.display = 'none';
         cardBase.style.display = 'none';
-        cardHtml.style.display = 'none';
-        cardCss.style.display = 'none';
+        cardGo.style.display = 'none';
+        cardCsharp.style.display = 'none';
         cardJs.style.display = 'none';
     }
+});
+
+// ********************* front end skills 
+
+var btnHtml = document.querySelector('#btn_html');
+var btnCss = document.querySelector('#btn_css');
+var btnReact = document.querySelector('#btn_react');
+var btnBs = document.querySelector('#btn_bootstrap');
+var btnTailwind = document.querySelector('#btn_tailwind');
+var btnHtmx = document.querySelector('#btn_htmx');
+
+var cardBaseFront = document.querySelector('#card_base_front');
+var cardHtml = document.querySelector('#card_html');
+var cardCss = document.querySelector('#card_css');
+var cardReact = document.querySelector('#card_react');
+var cardBs= document.querySelector('#card_bootstap');
+var cardTailwind= document.querySelector('#card_tailwind');
+var cardHtmx = document.querySelector('#card_htmx');
+
+// criando função botao html
+btnHtml.addEventListener('click', function() {
+
+    if(cardHtml.style.display === 'none') {
+        cardHtml.style.display = 'block';
+        cardBaseFront.style.display = 'none';
+        cardCss.style.display = 'none';
+        cardReact.style.display = 'none';
+        cardBs.style.display = 'none';
+        cardTailwind.style.display = 'none';
+        cardHtmx.style.display = 'none';
+
+    } else {
+        cardHtml.style.display = 'block';
+        cardBaseFront.style.display = 'none';
+        cardCss.style.display = 'none';
+        cardReact.style.display = 'none';
+        cardBs.style.display = 'none';
+        cardTailwind.style.display = 'none';
+        cardHtmx.style.display = 'none';
+    }
+});
+
+// criando função botao css
+btnCss.addEventListener('click', function() {
+
+    if(cardCss.style.display === 'none') {
+        cardCss.style.display = 'block';
+        cardBaseFront.style.display = 'none';
+        cardHtml.style.display = 'none';
+        cardReact.style.display = 'none';
+        cardBs.style.display = 'none';
+        cardTailwind.style.display = 'none';
+        cardHtmx.style.display = 'none';
+
+    } else {
+        cardCss.style.display = 'block';
+        cardBaseFront.style.display = 'none';
+        cardHtml.style.display = 'none';
+        cardReact.style.display = 'none';
+        cardBs.style.display = 'none';
+        cardTailwind.style.display = 'none';
+        cardHtmx.style.display = 'none';
+    }
+});
+
+
+// criando função botao react
+btnReact.addEventListener('click', function() {
+
+    if(cardReact.style.display === 'none') {
+        cardReact.style.display = 'block';
+        cardBaseFront.style.display = 'none';
+        cardHtml.style.display = 'none';
+        cardCss.style.display = 'none';
+        cardBs.style.display = 'none';
+        cardTailwind.style.display = 'none';
+        cardHtmx.style.display = 'none';
+
+    } else {
+        cardReact.style.display = 'block';
+        cardBaseFront.style.display = 'none';
+        cardHtml.style.display = 'none';
+        cardCss.style.display = 'none';
+        cardBs.style.display = 'none';
+        cardTailwind.style.display = 'none';
+        cardHtmx.style.display = 'none';
+    }
+});
+
+
+// criando função botao bs
+btnBs.addEventListener('click', function() {
+
+    if(cardBs.style.display === 'none') {
+        cardBs.style.display = 'block';
+        cardBaseFront.style.display = 'none';
+        cardHtml.style.display = 'none';
+        cardReact.style.display = 'none';
+        cardCss.style.display = 'none';
+        cardTailwind.style.display = 'none';
+        cardHtmx.style.display = 'none';
+
+    } else {
+        cardBs.style.display = 'block';
+        cardBaseFront.style.display = 'none';
+        cardHtml.style.display = 'none';
+        cardReact.style.display = 'none';
+        cardCss.style.display = 'none';
+        cardTailwind.style.display = 'none';
+        cardHtmx.style.display = 'none';
+    }
+});
+
+
+// criando função botao tailwind
+btnTailwind.addEventListener('click', function() {
+
+    if(cardTailwind.style.display === 'none') {
+        cardTailwind.style.display = 'block';
+        cardBaseFront.style.display = 'none';
+        cardHtml.style.display = 'none';
+        cardReact.style.display = 'none';
+        cardBs.style.display = 'none';
+        cardCss.style.display = 'none';
+        cardHtmx.style.display = 'none';
+
+    } else {
+        cardTailwind.style.display = 'block';
+        cardBaseFront.style.display = 'none';
+        cardHtml.style.display = 'none';
+        cardReact.style.display = 'none';
+        cardBs.style.display = 'none';
+        cardCss.style.display = 'none';
+        cardHtmx.style.display = 'none';
+    }
+});
+
+
+// criando função botao HTMX
+btnHtmx.addEventListener('click', function() {
+
+    if(cardHtmx.style.display === 'none') {
+        cardHtmx.style.display = 'block';
+        cardBaseFront.style.display = 'none';
+        cardHtml.style.display = 'none';
+        cardReact.style.display = 'none';
+        cardBs.style.display = 'none';
+        cardTailwind.style.display = 'none';
+        cardCss.style.display = 'none';
+
+    } else {
+        cardHtmx.style.display = 'block';
+        cardBaseFront.style.display = 'none';
+        cardHtml.style.display = 'none';
+        cardReact.style.display = 'none';
+        cardBs.style.display = 'none';
+        cardTailwind.style.display = 'none';
+        cardCss.style.display = 'none';
+    }
+});
+
+
+// Botoes para altenar entre fron e back
+
+var btnFront = document.querySelector('#btn_frontend');
+var btnBack = document.querySelector('#btn_backend');
+
+var skillsFront = document.querySelector('#frontend_skills');
+var skillsBack = document.querySelector('#backend_skills');
+
+
+btnFront.addEventListener('click', function() {
+    skillsFront.style.display = 'block';
+    skillsBack.style.display = 'none';
+});
+
+btnBack.addEventListener('click', function() {
+    skillsFront.style.display = 'none';
+    skillsBack.style.display = 'block';
 });

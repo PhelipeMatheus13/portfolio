@@ -1,357 +1,247 @@
+#skills #frontend_skills {
+  display: none;
+}
 
-/*---------- skills ---------  */
-#skills .container { 
+#skills .container {
   width: 100%;
   height: 100vh;
   display: inline-flex;
-  
+}
+
+#skills .container .bg_skills {
+  width: 100%;
+  height: 80%;
+  background-color: black;
+  /* border: 1px solid white; */
+  margin-top: auto;
+  margin-bottom: auto;
+  border-left: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+#skills .container .title {
+  display: flex;
+  position: absolute;
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 2.0rem;
+  font-weight: 400;
+  color: #f9fcff;
+  font-family: 'Roboto Slab', serif;
+}
+
+#skills .container .category {
+  position: absolute;
+  margin-top: 74vh;
+}
+
+#skills .container .category .btn_skills_category{
+  display: inline-flex; 
+  border: none;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+#skills .container .category .btn_skills_category .btn {
+  border: 1px solid white;    
+  font-family: 'Lato';
+  font-size: 0.7rem;
+  color: white;
+  background: black;
+  cursor: pointer;
+  padding: 4px 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#btn-backend{
+  display: none;
+}
+
+#skills .container .left {
+  height: 60vh;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+#skills .container .left .icons {
+  margin-top: 80px;
+  width: 100%;
+}
+
+#skills .container .left .icons button {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  background: white;
+  margin: 0 10px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#skills .container .left .icons p {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #f9fcff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+#skills .container .left ul {
+  display: flex;
+  margin-top: 30px;
+}
+
+#skills .container .left ul li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+#skills .container .left ul li button img {
+  width: 50px;
+  height: 50px;
+}
+
+#skills .container .right {
+  float: right;
+}
+
+/*------------------------------ CARDS BASE ------------------------------*/
+#skills .container .right #card-base {
+  position: relative;
+  width: 300px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.5s;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+#skills .container .right #card_base_front {
+  position: relative;
+  width: 300px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.5s;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+
+/***************** cards  *****************/
+#skills .container .right .card {
+  position: relative;
+  padding: 10px;
+  width: 300px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.5s;
+  text-align: center;
+  display: none;
+}
+
+#skills .container .right .card img {
+  transition: 0.5s;
+  height: 50px;
+  width: 50px;
+}
+
+#skills .container .right .card h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+#skills .container .right .card h2 {
+  font-size: 1.3rem;
+  color: white;
+}
+
+#skills .container .right .card .content {
+  padding: 20px;
+  text-align: center;
+}
+
+#skills .container .right .card p {
+  color: white;
+  transition: 0.0s;
+}
+
+#skills .container .right .card:hover {
+  border: 2px solid white;
+}
+
+
+
+/************ Responsive **************/
+@media screen and (max-width: 740px) {
+  #skills .container {
+    height: 130vh;
   }
-  #skills .container .bg_skills{ 
-    width: 100%;
-    height: 80%;
-    background-color: black ;
-    /* border: 1px solid white; */
-    margin-top: auto;
-    margin-bottom: auto;
-    border-left: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+
+  #skills .container .title {
+    font-size: 1.5rem;
+    position: static;
+    margin-top: 100px;
   }
-  #skills .container .title{
-    display: flex;
-    position: absolute;
+  #skills .container .bg_skills {
+    flex-direction: column;
     align-items: center;
-    margin-top: 60px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-weight: bold;
-    font-size: 2.0rem;
-    font-weight: 400;
-    color: #f9fcff;
-    font-family: 'Roboto Slab', serif;
   }
   #skills .container .left {
-    height: 60vh;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
- 
+    height: auto;
+    margin-bottom: 90px;
   }
-  #skills .container .left .icons{
-    margin-top: 30px;
+  #skills .container .left .icons {
+    margin-top: 0px;
   }
   #skills .container .left .icons button{
-    border: none;
-    cursor: pointer;
-    display: inline-flex;
-    width: 60px;
-    height: 60px;
-    background: white;
-    margin: 0 10px;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-  }
-  #skills .container .left .icons p {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    color: #f9fcff;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 8px;
-  }
-  #skills .container .left ul{
-    display: flex;
-    margin-top: 30px;
-  }
-  #skills .container .left ul li{
-    list-style: none;
-    padding:  0 10px; 
+    width: 40px;
+    height: 40px;
   }
   #skills .container .left ul li button img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+  }
+
+  #skills .container .right {
+    height: auto;
+    margin-bottom: 90px;
+  }
+
+}
+
+
+@media screen and (max-width: 320px) {
+  #skills .container .left .icons button {
+    margin: 0px;
+  }
+  #skills .container .left .icons p {
+    font-size: 0.7rem;
   }
   #skills .container .right {
-    float: right;
-
+    width: auto;
   }
-  /*------------------------------ CARDS ------------------------------*/
-  #skills .container .right #card-base{
-    position: relative;
-    width: 300px;
-    background-color: black;
-    border: 2px solid black;
-    border-radius: 20px;
-    overflow: hidden;
-    transition: 0.5s;
-    text-align: center;
-    font-size: 1.5rem;
-    color: white;
-  }
-  /***************** card HTML  *****************/
-  #skills .container .right #card-html{
-    position: relative;
-    padding: 10px;
-    width: 300px;
-    background-color: black;
-    border: 2px solid black;
-    border-radius: 20px;
-    overflow: hidden;
-    transition: 0.5s;
-    text-align: center;
-    display: none; 
-  }
-  #skills .container .right #card-html img{
-    transition: 0.5s;
-  }
-  #skills .container .right #card-html h1{
-    font-size: 2rem;
-    color: white;
-  }
-  #skills .container .right #card-html .content {
-    padding: 20px;
-    text-align: center;
-  }
-  #skills .container .right #card-html p {
-    color: white;
-    transition: 0.0s;
-  }
-  #skills .container .right #card-html:hover{
-    border: 2px solid white;
-    color: white;
-  }
-
-    /***************** card CSS  *****************/
-  #skills .container .right #card-css{
-    position: relative;
-    padding: 10px;
-    width: 300px;
-    background-color: black;
-    border: 2px solid black;
-    border-radius: 20px;
-    overflow: hidden;
-    transition: 0.5s;
-    text-align: center;
-    display: none; 
-  }
-  #skills .container .right #card-css img{
-    transition: 0.5s;
-  }
-  #skills .container .right #card-css h1{
-    font-size: 2rem;
-    color: white;
-  }
-  #skills .container .right #card-css .content {
-    padding: 20px;
-    text-align: center;
-  }
-  #skills .container .right #card-css p {
-    color: white;
-    transition: 0.0s;
-  }
-  #skills .container .right #card-css:hover{
-    border: 2px solid white;
-    color: white;
-  }
-
-    /***************** card JS  *****************/
-    #skills .container .right #card-js{
-      position: relative;
-      padding: 10px;
-      width: 300px;
-      background-color: black;
-      border: 2px solid black;
-      border-radius: 20px;
-      overflow: hidden;
-      transition: 0.5s;
-      text-align: center;
-      display: none; 
-    }
-    #skills .container .right #card-js img{
-      transition: 0.5s;
-    }
-    #skills .container .right #card-js h1{
-      font-size: 2rem;
-      color: white;
-    }
-    #skills .container .right #card-js .content {
-      padding: 20px;
-      text-align: center;
-    }
-    #skills .container .right #card-js p {
-      color: white;
-      transition: 0.0s;
-    }
-    #skills .container .right #card-js:hover{
-      border: 2px solid white;
-      color: white;
-    }
-
-    /***************** card Git Hub  *****************/
-    #skills .container .right #card-GitHub{
-      position: relative;
-      padding: 10px;
-      width: 300px;
-      background-color: black;
-      border: 2px solid black;
-      border-radius: 20px;
-      overflow: hidden;
-      transition: 0.5s;
-      text-align: center;
-      display: none; 
-    }
-    #skills .container .right #card-GitHub img{
-      transition: 0.5s;
-    }
-    #skills .container .right #card-GitHub h1{
-      font-size: 2rem;
-      color: white;
-    }
-    #skills .container .right #card-GitHub .content {
-      padding: 20px;
-      text-align: center;
-    }
-    #skills .container .right #card-GitHub p {
-      color: white;
-      transition: 0.0s;
-    }
-    #skills .container .right #card-GitHub:hover{
-      border: 2px solid white;
-      color: white;
-    }
-
-/***************** card JAVA  *****************/
-#skills .container .right #card-java{
-  position: relative;
-  padding: 10px;
-  width: 300px;
-  background-color: black;
-  border: 2px solid black;
-  border-radius: 20px;
-  overflow: hidden;
-  transition: 0.5s;
-  text-align: center;
-  display: none; 
-}
-#skills .container .right #card-java img{
-  transition: 0.5s;
-}
-#skills .container .right #card-java h1{
-  font-size: 2rem;
-  color: white;
-}
-#skills .container .right #card-java .content {
-  padding: 20px;
-  text-align: center;
-}
-#skills .container .right #card-java p {
-  color: white;
-  transition: 0.0s;
-}
-#skills .container .right #card-java:hover{
-  border: 2px solid white;
-  color: white;
-}
-
-/***************** card C SHARP  *****************/
-#skills .container .right #card-csharp{
-  position: relative;
-  padding: 10px;
-  width: 300px;
-  background-color: black;
-  border: 2px solid black;
-  border-radius: 20px;
-  overflow: hidden;
-  transition: 0.5s;
-  text-align: center;
-  display: none; 
-}
-#skills .container .right #card-csharp img{
-  transition: 0.5s;
-}
-#skills .container .right #card-csharp h1{
-  font-size: 2rem;
-  color: white;
-}
-#skills .container .right #card-csharp .content {
-  padding: 20px;
-  text-align: center;
-}
-#skills .container .right #card-csharp p {
-  color: white;
-  transition: 0.0s;
-}
-#skills .container .right #card-csharp:hover{
-  border: 2px solid white;
-  color: white;
-}
-
-/***************** card SQL  *****************/
-#skills .container .right #card-sql{
-  position: relative;
-  padding: 10px;
-  width: 300px;
-  background-color: black;
-  border: 2px solid black;
-  border-radius: 20px;
-  overflow: hidden;
-  transition: 0.5s;
-  text-align: center;
-  display: none; 
-}
-#skills .container .right #card-sql img{
-  transition: 0.5s;
-}
-#skills .container .right #card-sql h1{
-  font-size: 2rem;
-  color: white;
-}
-#skills .container .right #card-sql .content {
-  padding: 20px;
-  text-align: center;
-}
-#skills .container .right #card-sql p {
-  color: white;
-  transition: 0.0s;
-}
-#skills .container .right #card-sql:hover{
-  border: 2px solid white;
-  color: white;
-}
-
-/***************** card C++  *****************/
-#skills .container .right #card_c_mais_mais{
-  position: relative;
-  padding: 10px;
-  width: 300px;
-  background-color: black;
-  border: 2px solid black;
-  border-radius: 20px;
-  overflow: hidden;
-  transition: 0.5s;
-  text-align: center;
-  display: none; 
-}
-#skills .container .right #card_c_mais_mais img{
-  transition: 0.5s;
-}
-#skills .container .right #card_c_mais_mais h1{
-  font-size: 2rem;
-  color: white;
-}
-#skills .container .right #card_c_mais_mais .content {
-  padding: 20px;
-  text-align: center;
-}
-#skills .container .right #card_c_mais_mais p {
-  color: white;
-  transition: 0.0s;
-}
-#skills .container .right #card_c_mais_mais:hover{
-  border: 2px solid white;
-  color: white;
-}
-
+} 

@@ -12,7 +12,6 @@
   width: 100%;
   height: 80%;
   background-color: black;
-  /* border: 1px solid white; */
   margin-top: auto;
   margin-bottom: auto;
   border-left: none;
@@ -39,15 +38,15 @@
   margin-top: 74vh;
 }
 
-#skills .container .category .btn_skills_category{
-  display: inline-flex; 
+#skills .container .category .btn_skills_category {
+  display: inline-flex;
   border: none;
   border-radius: 10px;
   justify-content: center;
 }
 
 #skills .container .category .btn_skills_category .btn {
-  border: 1px solid white;    
+  border: 1px solid white;
   font-family: 'Lato';
   font-size: 0.7rem;
   color: white;
@@ -63,7 +62,7 @@
   transition: all 0.3s;
 }
 
-#btn-backend{
+#btn-backend {
   display: none;
 }
 
@@ -204,31 +203,43 @@
   #skills .container .title {
     font-size: 1.5rem;
     position: static;
-    margin-top: 100px;
+    margin-top: 20px;
   }
+
+  #skills .container .category {
+    position: absolute;
+    margin-top: 95vh;
+}
+
   #skills .container .bg_skills {
     flex-direction: column;
     align-items: center;
   }
+
   #skills .container .left {
     height: auto;
-    margin-bottom: 90px;
   }
+
   #skills .container .left .icons {
     margin-top: 0px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
   }
-  #skills .container .left .icons button{
+
+  #skills .container .left .icons button {
     width: 40px;
     height: 40px;
   }
-  #skills .container .left ul li button img{
+
+  #skills .container .left ul li button img {
     width: 40px;
     height: 40px;
   }
 
   #skills .container .right {
-    height: auto;
-    margin-bottom: 90px;
+    position: static;
+    margin-bottom: 50px;
   }
 
 }
@@ -238,10 +249,12 @@
   #skills .container .left .icons button {
     margin: 0px;
   }
+
   #skills .container .left .icons p {
     font-size: 0.7rem;
   }
+
   #skills .container .right {
     width: auto;
   }
-} 
+}

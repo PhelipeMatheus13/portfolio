@@ -484,40 +484,6 @@ footer .right ul li img {
       letter-spacing: 0px;
     }
 
-    #skills .container {
-      height: 130vh;
-    }
-
-    #skills .container .title {
-      font-size: 1.5rem;
-      position: static;
-      margin-top: 100px;
-    }
-    #skills .container .bg_skills {
-      flex-direction: column;
-      align-items: center;
-    }
-    #skills .container .left {
-      height: auto;
-      margin-bottom: 90px;
-    }
-    #skills .container .left .icons {
-      margin-top: 0px;
-    }
-    #skills .container .left .icons button{
-      width: 40px;
-      height: 40px;
-    }
-    #skills .container .left ul li button img{
-      width: 40px;
-      height: 40px;
-    }
-
-    #skills .container .right {
-      height: auto;
-      margin-bottom: 90px;
-    }
-
     #projects .container {
       flex-direction: column;
     }
